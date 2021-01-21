@@ -1,0 +1,4 @@
+.yourTeamDisplay {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,29 @@
+.heading {
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 185px;
+    height: 60px;
+    margin-left: 1vw;
+}
+
+#navURL {
+    margin-right: 1vw;
+    font-size: 13px;
+}
+
+#navURL::before {
+    content: "\1F30D"
+}
+
+.topHeader {
+    margin-left: 2vw;
+    font-size: 14px;
+}

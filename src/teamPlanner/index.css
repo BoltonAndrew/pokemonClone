@@ -1,0 +1,15 @@
+.bannerTitle {
+    background-image: url("https://www.pokemonteambuilder.net/static/hdr.jpg");
+    margin: 0;
+    height: 20vh;
+    display: flex;
+    background-size: cover;
+    width: 100vw;
+}
+
+#bannerTitleh2 {
+    margin: 0;
+    margin-left: 5vw;
+    align-self: center;
+    color: #f2f2f2
+}

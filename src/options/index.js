@@ -1,4 +1,9 @@
-const sprites = [ "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png", "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+import './index.css';
+import TinyPoki from '../tinyPoki/index'
+
+const Options = (props) => {
+    const sprites = [ "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png", 
+    "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
@@ -147,5 +152,17 @@ const sprites = [ "https://raw.githubusercontent.com/PokeAPI/sprites/master/spri
     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
-    "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png"
-    ]
+    "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png"];
+    return(
+      <>
+        <h2 className='yourOptions'>Your Options</h2>
+        <form className='pokiBoard' onSubmit={props.handleSubmit}>
+          {sprites.map((poki, index) => {
+            return <TinyPoki key={index} sprite={poki} onClick={() => {props.setClickPoki(index+1); props.setTeamNum(props.teamNum + 1)}}/>
+          })}
+        </form>
+      </>
+    )
+  }
+
+  export default Options

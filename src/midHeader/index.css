@@ -1,0 +1,14 @@
+.midHeader {
+    font-size: 11px;
+    margin-left: 2vw;
+    color: #FFA500;
+}
+
+.midHeader:hover {
+    text-decoration: underline;
+    color: #FFA500;
+}
+
+.midHead {
+    margin-left: 4vw;
+}
