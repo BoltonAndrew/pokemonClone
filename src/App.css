@@ -32,3 +32,23 @@ nav {
     width: 185px;
     height: 60px;
 }
+
+.yourTeamDisplay {
+    display: flex;
+    flex-direction: row;
+}
+
+.pokiBoard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.circleNames {
+    background-color: #020202;
+    border-radius: 50%;
+}
+
+#bannerTitleh2 {
+    background-image: url("https://www.pokemonteambuilder.net/static/hdr.jpg");
+}
