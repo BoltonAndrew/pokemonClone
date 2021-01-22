@@ -4,10 +4,10 @@ import NavBar from '../navBar/index'
 const MidHeader = () => {
     const midHeaders = [
       {to: '/',
-       text: 'Home',
+       text: 'Home   ⦿',
        className: 'navLink midHeader'},
       {to: '/',
-       text: 'National   •',
+       text: 'National   ⦿',
        className: 'navLink midHeader'},
       {to: '/',
        text: 'Team Planner',

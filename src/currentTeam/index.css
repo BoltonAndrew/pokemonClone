@@ -1,4 +1,9 @@
 .yourTeamDisplay {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+.yourTeam {
+    color: #4d6ad8;
+    font-size: 3vh;;
 }

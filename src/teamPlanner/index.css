@@ -13,3 +13,24 @@
     align-self: center;
     color: #f2f2f2
 }
+
+.midTitle {
+    text-align: center;
+    font-size: 3vh;
+}
+
+#midTitleh2 {
+    margin: 0;
+    color: #ff69b4;
+}
+
+#midTitleh2::before {
+    background-image: url('../assets/pokemonLogo.png');
+    background-size: 10vh;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 4vh;
+    width: 10vh;
+    content:'';
+    margin-right: 1vw;
+}

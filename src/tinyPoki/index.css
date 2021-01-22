@@ -1,4 +1,8 @@
 .circleNames {
-    background-color: #020202;
+    background-color: #68a090;
     border-radius: 50%;
+}
+
+.circleNames:focus {
+    outline: none;
 }
