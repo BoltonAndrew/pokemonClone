@@ -26,6 +26,8 @@
 
 .pokiName {
     text-align: center;
+    width: 15vw;
+    font-size: 2vw;
 }
 
 .type {
